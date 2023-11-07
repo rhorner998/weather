@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+
+    <form id="city-form">
+        <label for="city-input">Enter City:</label>
+        <input type="text" id="city-input" required>
+        <button type="button" onclick="getWeatherData()">Get Weather</button>
+    </form>
+
+    <div id="current-weather">
+        <!-- Display current weather data here -->
+    </div>
+
+    <div id="forecast">
+        <!-- Display 5-day forecast data here -->
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
